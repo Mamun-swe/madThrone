@@ -1,0 +1,199 @@
+@font-face {
+    font-family: BarlowCondensed-Light;
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: BarlowCondensed-Regular;
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: BarlowCondensed-Bold;
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf');
+}
+
+/* Website Nav */
+
+.website-nav .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+}
+
+.website-nav .nav img {
+    min-width: 225px;
+    height: 50px;
+}
+
+.website-nav ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.website-nav ul li {
+    list-style: none;
+    float: left;
+}
+
+.website-nav ul li a {
+    text-decoration: none;
+    font-family: BarlowCondensed-Light;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #4f2d7f;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 0px 10px;
+}
+
+.website-nav .nav .bar {
+    font-size: 25px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.website-nav .nav .bar:hover {
+    color: #4f2d7f;
+}
+
+/* End Website Nav */
+
+/* Side Menu */
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.open-menu {
+    left: 0%;
+}
+
+.side-menu .close-section .close-icon {
+    font-size: 50px;
+    cursor: pointer;
+    padding: 0px 27px;
+}
+
+.side-menu .close-section .close-icon:hover {
+    color: #4f2d7f;
+}
+
+.side-menu ul li {
+    list-style: none;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    font-family: BarlowCondensed-Light;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #4f2d7f;
+    font-size: 18px;
+    display: block;
+    padding: 5px 0px;
+}
+
+/* End Side Menu */
+
+/* Home */
+
+.home .banner {
+    background-image: url("../images/static/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.home .banner .banner-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #4f2d7fdc;
+}
+
+.home .banner .banner-overlay h5 {
+    color: #fff;
+    font-family: BarlowCondensed-Light;
+}
+
+.home .banner .banner-overlay h1 {
+    color: #fff;
+    font-family: BarlowCondensed-Regular;
+    font-weight: 400;
+}
+
+.home .banner .banner-overlay p {
+    color: #fff;
+    font-family: BarlowCondensed-Light;
+    font-size: 20px;
+}
+
+.home .banner .banner-overlay .btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: BarlowCondensed-Regular;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 10px 45px;
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+.home .banner .banner-overlay .btn:hover {
+    color: #4f2d7f;
+    background: #fff;
+}
+
+@media(max-width: 576px) {
+    .home .banner {
+        height: 600px;
+    }
+    .home .banner .banner-overlay {
+        padding-top: 90px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 576px) {
+    .home .banner {
+        height: 650px;
+    }
+    .home .banner .banner-overlay {
+        padding-top: 120px;
+    }
+}
+
+@media(min-width: 992px) {
+    .home .banner {
+        height: 100vh;
+    }
+    .home .banner .banner-overlay {
+        padding-top: 100px;
+    }
+    .home .banner .banner-overlay h5 {
+        font-size: 27px;
+    }
+    .home .banner .banner-overlay h1 {
+        font-size: 60px;
+    }
+}
+
+@media(min-width: 1480px) {
+    .home .banner {
+        height: 730px;
+    }
+}
+
+/* End Home */
