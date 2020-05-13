@@ -75,7 +75,7 @@
         <!-- Footer -->
             <div class="footer">
                 <div class="container">
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col-12 col-lg-6 pr-lg-5 mb-4 mb-lg-0">
                             <img src="{{asset('website/images/static/logo.png')}}" class="img-fluid mb-4">
                             <p class="mb-0">Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
@@ -87,6 +87,11 @@
                                 <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="mailto:someone@example.com"><i class="far fa-envelope"></i></a></li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 copyright py-3 text-center border-top">
+                            <p class="mb-0 text-dark">All right reserved & develop by <span><b>MadThrone</b></span></p>
                         </div>
                     </div>
                 </div>

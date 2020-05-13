@@ -528,12 +528,16 @@
 
 .footer {
     padding-top: 90px;
-    padding-bottom: 90px;
 }
 
 .footer h3 {
     color: #4f2d7f;
     font-family: BarlowCondensed-Regular;
+}
+
+.footer p {
+    font-size: 16px;
+    font-family: Nunito-Regular;
 }
 
 .footer ul {
@@ -568,6 +572,10 @@
 .footer ul li a .fa-linkedin-in {
     padding: 10px 10px;
     font-size: 13px;
+}
+
+.footer .copyright span {
+    color: #4f2d7f;
 }
 
 /* End Footer */
