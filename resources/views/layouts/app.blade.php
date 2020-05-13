@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('website/css/website.css') }}" rel="stylesheet">
+    <link href="{{ asset('website/css/about.css') }}" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -37,9 +38,9 @@
                                 </div>
                                 <div class="ml-auto d-none d-lg-block">
                                     <ul>
-                                        <li><a href="">home</a></li>
+                                        <li><a href="{{route('welcome')}}">home</a></li>
                                         <li><a href="">services</a></li>
-                                        <li><a href="">about us</a></li>
+                                        <li><a href="{{route('about-us')}}">about us</a></li>
                                         <li><a href="">contact us</a></li>
                                     </ul>
                                 </div>
@@ -60,9 +61,9 @@
                 <span class="close-icon">&times;</span>
             </div>
             <ul>
-                <li><a href="">home</a></li>
+                <li><a href="{{route('welcome')}}">home</a></li>
                 <li><a href="">services</a></li>
-                <li><a href="">about us</a></li>
+                <li><a href="{{route('about-us')}}">about us</a></li>
                 <li><a href="">contact us</a></li>
             </ul>
         </div>

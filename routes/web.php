@@ -21,4 +21,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 // User
-Route::get('/', 'Website\WebsiteController@index');
+Route::get('/', 'Website\WebsiteController@index')->name('welcome');
+Route::get('/about-us', 'Website\WebsiteController@about')->name('about-us');
