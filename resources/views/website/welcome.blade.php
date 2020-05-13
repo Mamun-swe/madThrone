@@ -192,7 +192,7 @@
                     <p class="mb-0">Lorem ipsum, or lipsum as it is sometimes.</p>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-2 text-center mb-5 mb-lg-0">
+                <div class="col-12 col-md-6 col-lg-2 text-center">
                     <div class="circle rounded-circle border text-center mb-4">
                         <div class="flex-center flex-column">
                             <h2 class="mb-0">06</h2>
