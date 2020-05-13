@@ -39,7 +39,6 @@
                                     <ul>
                                         <li><a href="">home</a></li>
                                         <li><a href="">services</a></li>
-                                        <li><a href="">team</a></li>
                                         <li><a href="">about us</a></li>
                                         <li><a href="">contact us</a></li>
                                     </ul>
@@ -63,7 +62,6 @@
             <ul>
                 <li><a href="">home</a></li>
                 <li><a href="">services</a></li>
-                <li><a href="">team</a></li>
                 <li><a href="">about us</a></li>
                 <li><a href="">contact us</a></li>
             </ul>
@@ -72,6 +70,28 @@
         <main style="margin-top: 98px;">
             @yield('content')
         </main>
+
+
+        <!-- Footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pr-lg-5 mb-4 mb-lg-0">
+                            <img src="{{asset('website/images/static/logo.png')}}" class="img-fluid mb-4">
+                            <p class="mb-0">Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt lores ta porro ame.</p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <h3 class="text-uppercase mb-4">connect with us</h3>
+                            <ul>
+                                <li><a target="_blank" href="https://www.facebook.com/MadThrone"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="mailto:someone@example.com"><i class="far fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End Footer -->
     </div>
 
     <script>
