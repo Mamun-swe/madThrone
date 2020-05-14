@@ -1,0 +1,72 @@
+/* All Service */
+
+.service .all-services h2 {
+    color: #4f2d7f;
+    font-family: BarlowCondensed-Light;
+}
+
+.service .all-services .service-column {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service .all-services .service-column i {
+    font-size: 35px;
+    color: #4f2d7f;
+    margin-bottom: 20px;
+}
+
+.service .all-services .service-column h5 {
+    color: #555;
+    text-transform: capitalize;
+    font-family: BarlowCondensed-Bold;
+}
+
+.service .all-services .service-column p {
+    font-size: 16px;
+    line-height: 1.8rem;
+    font-family: Nunito-Regular;
+}
+
+/* End All Service */
+
+/* Portfolio */
+
+.portfolio h2 {
+    color: #4f2d7f;
+    font-family: BarlowCondensed-Light;
+}
+
+.portfolio .portfolio-column .poster {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio .portfolio-column .poster .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.733);
+    text-align: center;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.portfolio .portfolio-column .poster:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.portfolio .portfolio-column img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* End Portfolio */

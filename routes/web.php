@@ -22,4 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // User
 Route::get('/', 'Website\WebsiteController@index')->name('welcome');
+Route::get('/services', 'Website\WebsiteController@service')->name('service');
 Route::get('/about-us', 'Website\WebsiteController@about')->name('about-us');
