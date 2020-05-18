@@ -1,0 +1,42 @@
+.contact-us .content h1 {
+    color: #4f2d7f;
+    font-family: BarlowCondensed-Regular;
+}
+
+.contact-us .content h3 {
+    color: #4f2d7f;
+    font-family: BarlowCondensed-Regular;
+}
+
+.contact-us .content ul {
+    padding-left: 0;
+}
+
+.contact-us .content ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: Nunito-Regular;
+}
+
+.contact-us .content ul li a {
+    color: #4f2d7f;
+}
+
+.contact-us .content .map {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media(max-width: 992px) {
+    .contact-us .content {
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+}
+
+@media(min-width: 992px) {
+    .contact-us .content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

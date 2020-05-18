@@ -18,4 +18,12 @@ class WebsiteController extends Controller
     public function service(){
         return view('website.services'); 
     }
+
+    public function toolsTech(){
+        return view('website.tooltech');
+    }
+
+    public function contactUs(){
+        return view('website.contact');
+    }
 }

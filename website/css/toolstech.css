@@ -1,0 +1,118 @@
+/* Header */
+
+.tools_and_tech .header .img-column {
+    position: relative;
+}
+
+.tools_and_tech .header .img-column img {
+    width: 100%;
+    height: 100%;
+}
+
+.tools_and_tech .header .img-column .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.473);
+}
+
+.tools_and_tech .header .img-column .overlay h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: BarlowCondensed-Regular;
+}
+
+.tools_and_tech .header .content-column {
+    background: #4f2d7fdc;
+}
+
+.tools_and_tech .header .content-column h1 {
+    color: #fff;
+    font-family: BarlowCondensed-Regular;
+}
+
+.tools_and_tech .header .content-column p {
+    color: #fff;
+    font-size: 17px;
+    font-family: Nunito-Regular;
+}
+
+@media(max-width: 576px) {
+    .tools_and_tech .header .img-column {
+        height: 200px;
+        overflow: hidden;
+    }
+    .tools_and_tech .header .content-column {
+        padding: 50px 50px;
+    }
+}
+
+@media(min-width: 576px) {
+    .tools_and_tech .header .img-column {
+        height: 400px;
+        overflow: hidden;
+    }
+    .tools_and_tech .header .content-column {
+        padding: 80px 80px;
+    }
+}
+
+@media(min-width: 992px) {
+    .tools_and_tech .header .content-column {
+        padding-top: 130px;
+    }
+}
+
+@media(min-width: 1480px) {
+    .tools_and_tech .header .img-column {
+        height: 500px;
+        overflow: hidden;
+    }
+    .tools_and_tech .header .content-column {
+        padding-top: 150px;
+    }
+}
+
+/* End Header */
+
+/* Main Content */
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content .btn {
+    color: #4f2d7fdc;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: Nunito-Regular;
+    border-radius: 0px;
+}
+
+.content .active {
+    border-bottom: 2px solid #4f2d7fdc;
+}
+
+.content .logo-card {
+    margin-bottom: 30px;
+    border: 1px solid #4f2d7f6c;
+    -webkit-box-shadow: 1px 3px 14px -5px rgba(0, 0, 0, 0.98);
+    box-shadow: 1px 3px 14px -5px rgba(0, 0, 0, 0.98);
+}
+
+.content .logo-card img {
+    max-width: 90px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+
+.content .logo-card p {
+    font-style: 14px;
+    font-family: Nunito-Regular;
+}
+
+/* End Main Content */

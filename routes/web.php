@@ -24,3 +24,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'Website\WebsiteController@index')->name('welcome');
 Route::get('/services', 'Website\WebsiteController@service')->name('service');
 Route::get('/about-us', 'Website\WebsiteController@about')->name('about-us');
+Route::get('/tools-tech', 'Website\WebsiteController@toolsTech')->name('tools-tech');
+Route::get('/contact-us', 'Website\WebsiteController@contactUs')->name('contact-us');

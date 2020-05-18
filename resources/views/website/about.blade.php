@@ -14,8 +14,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 content-column text-center text-lg-left">
-                    <h1 class="text-uppercase mb-3">WE ARE "OLIVERWOOD FINANCE"</h1>
-                    <p>Neque porro quisquam est, quiipsum quia dolor sit amet, consectetur adipisci numquam eius modi tempora incidunt lores ta porro ame.</p>
+                    <h1 class="text-uppercase mb-3">We are nothing but MAD at coding </h1>
+                    <p>You may expect a lot of typical thing shold be written here. But we are sorry to say, we can't satisfy you at content writing.</p>
                 </div>
             </div>
         </div>
@@ -28,12 +28,11 @@
                 <div class="col-12 col-lg-3 text-center text-lg-left mb-4 mb-lg-0">
                     <p class="pb-1 text-muted">Who We Are</p>
                     <div class="line mb-3"></div>
-                    <h1 class="mb-0">Company Profile</h1>
+                    <h1 class="mb-0">Profile</h1>
                 </div>
                 <div class="col-12 col-lg-9 pl-lg-5 pt-lg-4">
                     <p class="text">
-                        Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit.
-                        Fames sequi placerat, laboris, nascetur posuere incidunt tempus sequi tenetur? Excepturi eum elementum rem, minima? Error, tempore et distinctio porta, earum! Aptent! Tenetur nibh interdum ea impedit pretium, exercitation congue? Ducimus sapien! Montes elementum! Doloribus fuga, molestie dolor fermentum nesciunt, harum esse alias tincidunt, qui, temporibus consectetuer voluptatum, porttitor, beatae delenit.
+                        We are bunch of graduates and "pre-graduates" acting as coder, tester, security activist and some of us don't act as none of this but they are intellectual and potential at other sides. We believe in productivity and quality.
                     </p>
                 </div>
             </div>
@@ -52,16 +51,16 @@
                 </div>
 
                 <div class="col-12 col-lg-3 text-center text-lg-left text-column px-lg-5">
-                    <h3 class="text-uppercase mb-4">our VISION</h3>
-                    <p>Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora porro ame.</p>
+                    <h3 class="text-uppercase mb-4">our vision</h3>
+                    <p>To become one of the most reliable software development agency by providing our clients most secured and quality product as their requirement.</p>
                 </div>
                 <div class="col-12 col-lg-3 text-center text-lg-left text-column px-lg-5">
                     <h3 class="text-uppercase mb-4">our mission</h3>
-                    <p>Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora porro ame.</p>
+                    <p>Provide a memorable experience to our clients what will make them return to us for another solution or service.</p>
                 </div>
                 <div class="col-12 col-lg-3 text-center text-lg-left text-column px-lg-5">
                     <h3 class="text-uppercase mb-4">our VALUES</h3>
-                    <p>Qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non numquam eius modi tempora porro ame.</p>
+                    <p>Trust, Focus, Integrity, Exelence, Consistency, Team Work</p>
                 </div>
             </div>
         </div>
